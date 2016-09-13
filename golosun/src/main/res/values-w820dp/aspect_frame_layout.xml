@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AspectFrameLayout">
+        <attr name="mode" format="enum">
+            <enum name="variableHeight" value="0"/>
+            <enum name="variableWidth" value="1"/>
+        </attr>
+        <attr name="aspect" format="float"/>
+    </declare-styleable>
+</resources>

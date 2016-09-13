@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:res_auto="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ru.cityvoicer.golosun.design.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Для подключения к сети GOLOSUN"
+            res_auto:fontAssetName="Roboto-Light.ttf"
+            android:textSize="16sp"
+            android:textColor="@color/dark_blue"
+            android:layout_margin="8dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            >
+            <ru.cityvoicer.golosun.design.CustomTextView
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="login:"
+                res_auto:fontAssetName="Roboto-Light.ttf"
+                android:textSize="16sp"
+                android:textColor="@color/dark_blue"
+                />
+            <ru.cityvoicer.golosun.design.CustomTextView
+                android:id="@+id/login_text"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="00000"
+                res_auto:fontAssetName="Roboto-Light.ttf"
+                android:textSize="16sp"
+                android:textColor="@color/dark_blue"
+                />
+            <Button
+                android:id="@+id/login_text_copy"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="copy"
+                >
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            >
+            <ru.cityvoicer.golosun.design.CustomTextView
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="password:"
+                res_auto:fontAssetName="Roboto-Light.ttf"
+                android:textSize="16sp"
+                android:textColor="@color/dark_blue"
+                />
+            <ru.cityvoicer.golosun.design.CustomTextView
+                android:id="@+id/pass_text"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="00000"
+                res_auto:fontAssetName="Roboto-Light.ttf"
+                android:textSize="16sp"
+                android:textColor="@color/dark_blue"
+                />
+            <Button
+                android:id="@+id/pass_text_copy"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="copy"
+                >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ru.cityvoicer.golosun.design.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:text="Я подключился"
+        res_auto:fontAssetName="Roboto-Light.ttf"
+        android:textSize="16sp"
+        android:textColor="@color/dark_blue"
+        />
+
+    <ru.cityvoicer.golosun.design.CustomTextView
+        android:id="@+id/show_connect_tutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:text="Как подключится"
+        res_auto:fontAssetName="Roboto-Light.ttf"
+        android:textSize="16sp"
+        android:textColor="#00AAFF"
+        />
+
+</FrameLayout>

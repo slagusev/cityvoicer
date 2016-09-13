@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GolosCity</string>
+    <string name="app_name_title">голосСИТИ</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="genders">
+        <item>мужской</item>
+        <item>женский</item>
+    </string-array>
+</resources>

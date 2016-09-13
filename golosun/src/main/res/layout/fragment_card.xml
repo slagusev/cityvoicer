@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:res_auto="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ru.cityvoicer.golosun.design.AspectFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            res_auto:aspect="1.536"
+            res_auto:mode="variableHeight"
+            >
+            <android.support.v4.view.ViewPager
+                android:id="@+id/mViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </ru.cityvoicer.golosun.design.AspectFrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="vertical"
+                android:layout_marginBottom="16dp"
+                >
+                <ru.cityvoicer.golosun.design.CustomTextView
+                    android:id="@+id/mUseCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:text="Получить скидку"
+                    android:background="@drawable/card_button"
+                    res_auto:fontAssetName="Roboto-Light.ttf"
+                    android:textSize="18sp"
+                    android:textColor="@color/dark_blue"
+                    />
+
+                <ru.cityvoicer.golosun.design.CustomTextView
+                    android:id="@+id/mGoToWeb"
+                    android:padding="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Перейти на сайт"
+                    android:background="@drawable/card_button"
+                    res_auto:fontAssetName="Roboto-Light.ttf"
+                    android:textSize="18sp"
+                    android:textColor="@color/dark_blue"
+                    />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="side_menu_item_background">#FFFFFF</color>
+    <color name="side_menu_item_background_pressed">#c9c7c7</color>
+    <color name="side_menu_item_background_disabled">#c9c7c7</color>
+
+    <color name="dark_blue">#34526f</color>
+    <color name="light_blue">#718eaa</color>
+    <color name="light_gray">#f4f4f4</color>
+    <color name="light_gray_tr50">#80f4f4f4</color>
+    <color name="ad_main_image_placeholder">#aaaaaa</color>
+
+
+</resources>
